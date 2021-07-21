@@ -14,7 +14,7 @@ function caesar(input, shift, encode = true) {
   let result = ""
   let newIndex = 0
 
-  // If the shift value is not present, equal to zero, greater than 25, or less than -25, return false.
+  // If the shift value is equal to 0, not present, less than -25, or greater than 25, return false.
   if (shift === 0 || shift === undefined || shift < -25 || shift > 25) {
       return false
   }
