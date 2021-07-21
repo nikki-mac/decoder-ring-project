@@ -61,7 +61,7 @@ function polybius(input, encode = true) {
   
   /* If the message is being ENCODED, check each character in the input. 
   If the character is a space, return the space, otherwise return the 
-  two-digit code for the letter using `getNum()` function */
+  two-digit code for the letter using `getGridValue()` function */
   if (encode) {
     for (let characters in input) {
         let character = input[characters]
@@ -71,7 +71,7 @@ function polybius(input, encode = true) {
   // If the message is being DECODED, create an array of the encrypted numbers (input argument)
     const encryptedArray = input.split(' ')
     for (let numbers in encryptedArray) {
-      // Get each encrypted word from `encriptionArray`
+      // Get each encrypted word from `encryptedArray`
         let word = encryptedArray[numbers]
       // Figure out if this word is the last word in the array
         const lastWord = encryptedArray[encryptedArray.length - 1]
