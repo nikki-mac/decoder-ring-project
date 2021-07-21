@@ -13,7 +13,7 @@ const substitutionModule = (function () {
     const noRepeats = new Set(alphabet)
     /* if the alphabet argument is undefined, 
     contains less than 26 characters, or contains 
-    repeats(making `checkForRepeats` < 26), 
+    repeats(making `noRepeats` < 26), 
     function should return false */
     if (alphabet === undefined || alphabet.length < 26 || [...noRepeats].length < 26) {
       return false
