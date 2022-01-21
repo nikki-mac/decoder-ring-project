@@ -21,7 +21,7 @@ You are tasked with building functions for an application that will either encod
 
 You will need to build 3 Ciphers: Ceasar Shift, Polybius Square, and a Substitution Cipher.
 
-### Ceasar Shift
+### 🧩 Ceasar Shift
 ![ceasar shift](https://res.cloudinary.com/strive/image/upload/w_1000,h_1000,c_limit/b6a94b251bbbe6dae7e3e84ed8be33a4-image.png)
 
 The Caesar shift is a type of substitution cipher originally used by Julius Caesar to protect messages of military significance. It relies on taking the alphabet and "shifting" letters to the right or left, based on the typical alphabetic order.
@@ -35,7 +35,7 @@ For example, if you were to "shift" the alphabet to the right by 3, the letter `
 When decoding the message, you need to know the number the original message was shifted by so that you can shift in the opposite direction.
 
 
-### Polybius Square
+### 🧩 Polybius Square
 ![polybius square](https://www.researchgate.net/publication/330757507/figure/fig5/AS:721116154822656@1548938897100/Polybius-square-Based-on-the-modern-alphabet-The-Roman-alphabet-differed-slightly.png)
 
 The Polybius square is a cipher that is achieved by arranging a typical alphabet into a grid. Each letter is represented through a coordinate. For example, in the above table, the letter B would be represented by the numerical pair 21.
@@ -49,7 +49,7 @@ Typically, it is possible to arrange the letters however you like and read off t
 When decoding the message, each pair of numbers is translated using the coordinates.
 
 
-### Substitution Cipher
+### 🧩 Substitution Cipher
 ![substitution cipher](https://res.cloudinary.com/strive/image/upload/w_1000,h_1000,c_limit/19c12a6ee38ceddd82d75e12edf53189-image.png)
 
 The substitution cipher requires a standard alphabet and a substitution alphabet. Letters from the standard alphabet will be transposed to the standard alphabet. This cipher requires that the recipient have the substitution alphabet, otherwise it will be difficult for them to decode the message.
@@ -77,7 +77,7 @@ This would result in the code ```RMWWL```. To decrypt this code, you would simpl
 - Chai
 
 
-## Screenshots
+## 📸 Screenshots
 
 ### 🧩 Full Homepage View
 ![Full Homepage View](./assets/screenshots/decoder-ring-home.png "Full homepage view of all 3 ciphers")
