@@ -79,7 +79,31 @@ This would result in the code ```RMWWL```. To decrypt this code, you would simpl
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+### 🧩 Full Homepage View
+![Full Homepage View](./assets/screenshots/decoder-ring-home.png "Full homepage view of all 3 ciphers")
+
+### 🧩 Ceasar Shift
+#### Encode a Message
+![Ceasar Shift Encode](./assets/screenshots/ceasar-shift-encode.png "Ceasar Shift Encoding a Message")
+
+#### Decode a Message
+![Ceasar Shift Decode](./assets/screenshots/ceasar-shift-decode.png "Ceasar Shift Decoding a Message")
+
+
+### 🧩 Polybius Square
+#### Encode a Message
+![Polybius Square Encode](./assets/screenshots/polybius-square-encode.png "Polybius Square Encoding a Message")
+
+#### Decode a Message
+![Polybius Square Decode](./assets/screenshots/polybius-square-decode.png "Polybius Square Decoding a Message")
+
+
+### 🧩 Substitution Cipher
+#### Encode a Message
+![Substitution Cipher Encode](./assets/screenshots/substitution-cipher-encode.png "Substitution Cipher Encoding a Message")
+
+#### Decode a Message
+![Substitution Cipher Decode](./assets/screenshots/substitution-cipher-decode.png "Substitution Cipher Decoding a Message")
 
 
 ## 🖥 Run Locally
