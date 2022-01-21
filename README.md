@@ -64,7 +64,7 @@ For example, in the image above, the word ```HELLO``` would be translated as fol
 This would result in the code ```RMWWL```. To decrypt this code, you would simply take the result and transpose back from the substitution alphabet to the standard alphabet.
 ## ⭐️ Demo
 
-⭐️ [click here for live preview](https://decoder-ring-project-seven.vercel.app/) ⭐️
+⭐️ [click here for live demo](https://decoder-ring-project-seven.vercel.app/) ⭐️
 
 
 
